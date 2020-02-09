@@ -1,6 +1,11 @@
 * {
     box-sizing: border-box;
 }
+
+#app {
+    touch-action: manipulation;
+}
+
 .text-center {
     text-align: center;
     font-size: 25px;
