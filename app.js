@@ -28,12 +28,15 @@ new Vue({
             //win/lose
             if(this.virusHP <= 0 && this.playerHP > 0){
                 alert(`Player ${this.player} is a hero`)
+                this.startNewGame()
             }
             if(this.playerHP <= 0 && this.virusHP > 0){
                 alert(`Player ${this.player} and the Human Lose`)
+                this.startNewGame()
             }
             if(this.playerHP <= 0 && this.virusHP <= 0){
                 alert(`Player ${this.player} and virus were died, and then his opponent happy with his wife `)
+                this.startNewGame()
             }
 
             //turn
@@ -57,12 +60,15 @@ new Vue({
             //win/lose
             if(this.virusHP <= 0 && this.playerHP > 0){
                 alert(`Player ${this.player} is a hero`)
+                this.startNewGame()
             }
             if(this.playerHP <= 0 && this.virusHP > 0){
                 alert(`Player ${this.player} and the Human Lose`)
+                this.startNewGame()
             }
             if(this.playerHP <= 0 && this.virusHP <= 0){
                 alert(`Player ${this.player} and virus were died, and then his opponent happy with his wife `)
+                this.startNewGame()
             }
 
             //turn
@@ -88,12 +94,15 @@ new Vue({
             //win/lose
             if(this.virusHP <= 0 && this.playerHP > 0){
                 alert(`Player ${this.player} is a hero`)
+                this.startNewGame()
             }
             if(this.playerHP <= 0 && this.virusHP > 0){
                 alert(`Player ${this.player} and the Human Lose`)
+                this.startNewGame()
             }
             if(this.playerHP <= 0 && this.virusHP <= 0){
                 alert(`Player ${this.player} and virus were died, and then his opponent happy with his wife `)
+                this.startNewGame()
             }
 
             //turn
