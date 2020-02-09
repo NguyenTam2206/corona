@@ -135,3 +135,25 @@ button {
 #helpbox {
     font-size: 23px;
 }
+
+.imgYou {
+    height: 400px;
+    width: 80%;
+}
+
+.imgVirus {
+    height: 400px;
+    width: 100%;
+}
+
+@media screen and (max-width: 600px){
+    .imgYou {
+        height: 200px;
+        width: 80%;
+    }
+    
+    .imgVirus {
+        height: 200px;
+        width: 100%;
+    }
+}

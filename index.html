@@ -3,7 +3,7 @@
 <head>
     <title>CORONA VIRUS</title>
     <script src="https://npmcdn.com/vue/dist/vue.js"></script>
-    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximun-scale=1.0 ;user-scalable=no;" />
     <link rel="stylesheet" href="css/foundation.min.css">
     <link rel="stylesheet" href="css/app.css">
 </head>
@@ -12,7 +12,7 @@
     <section class="row">
         <div class="small-6 columns">
             <h1 class="text-center">YOU</h1>
-            <img src="img/boy.png" alt="" style="height: 400px; width: 800%">
+            <img src="img/boy.png" alt="" class="imgYou">
 
             <div class="healthbar">
                 <div class="healthbar text-center" style="background-color: red; margin: 0; color: white;" :style="{width: playerHP/9*20 + '%'}">
@@ -22,7 +22,7 @@
         </div>
         <div class="small-6 columns">
             <h1 class="text-center">CORONA</h1>
-            <img src="img/coronavirus.png" alt="" style="height: 400px; width: 100%">
+            <img src="img/coronavirus.png" alt="" class="imgVirus">
             
             <div class="healthbar">
                 <div class="healthbar text-center" style="background-color: red; margin: 0; color: white;" :style="{width: virusHP/3*10 + '%'}">
